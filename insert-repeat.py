@@ -34,7 +34,7 @@ cdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcde
 fgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefga
 bcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdef"
 idn = 0
-client = pymongo.MongoClient('mongodb://milan:wAr16dk7@ping5.cluster-c7b8fns5un9o.us-east-1.docdb.amazonaws.com:27017/?tls=true&t
+client = pymongo.MongoClient('mongodb://milan:password@ping5.cluster-c7b8fns5un9o.us-east-1.docdb.amazonaws.com:27017/?tls=true&t
 lsCAFile=global-bundle.pem&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false')
 db = client.compresstest
 col = db.microrepeat
